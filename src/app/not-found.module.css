@@ -1,0 +1,15 @@
+.container {
+  @apply min-h-screen grid place-items-center text-center px-8 py-12;
+}
+
+.title {
+  @apply text-6xl font-bold mb-4 text-red-600;
+}
+
+.description {
+  @apply text-lg mb-8;
+}
+
+.button {
+  @apply px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition;
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Inter", "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.4rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.bigI {
+  font-size: 3em;
+  line-height: 1;
+  color: var(--primary-color);
+  margin-bottom: -1rem;
+}
+
+.titleText {
+  line-height: 1;
+  margin-left: -3rem;
+}
+
+/* ✅ Size variants */
+.lg {
+  font-size: 3rem;
+}
+
+.base {
+  font-size: 2rem;
+}
+
+.sm {
+  font-size: 1.2rem;
+}
